@@ -1,0 +1,242 @@
+*{
+	box-sizing: border-box;
+}
+
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: rgb(234, 235, 234);
+}
+
+
+.header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: blue;
+	border-bottom: solid blue 20px;
+	padding-top: 20px;
+	cursor: pointer;
+}
+
+.header_one{
+	margin-left: 10px;
+}
+
+
+i{
+	color: lightgray;
+	padding: 10px;
+	font-size: large;
+}
+
+
+input{
+	border: none;
+	width: 500px;
+	padding: 10px;
+	font-size: medium;
+}
+
+
+.container{
+	display: flex;
+}
+
+
+.section1{
+	background-color: rgb(234, 235, 234);
+	width: 20%;
+}
+
+
+.options{
+	display: flex;
+	align-items: center;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+
+h1{
+	font-size: medium;
+	color: rgb(24, 1, 1);
+	margin-left: 10px;
+}
+
+
+#inbox{
+color: blue;
+}
+
+#snoozed{
+	color: orange;
+}
+
+#done{
+	color: green;
+}
+
+#trips{
+	color: blueviolet;
+}
+
+#saved{
+	color: blue;
+}
+
+#purchases{
+	color: brown;
+}
+
+#finances{
+	color: rgb(0, 207, 14);
+}
+
+#social{
+	color: maroon;
+}
+
+#updates{
+	color: orange;
+}
+
+.line{
+	display: block;
+	border-bottom: 3px solid rgb(171, 166, 166);
+}
+
+.section2{
+	padding-left: 30px;
+}
+
+.message1{
+	margin-left: 20px;
+	width: 1100px;
+	height: 100px;
+	background-color: whitesmoke;
+	border: whitesmoke;
+	display: flex;
+	align-items: center;
+}
+
+.message2{
+	background-color: whitesmoke;
+	width: 1100px;
+	margin-left: 20px;
+	height: 100px;
+	padding-top: 10px;
+	border-top:  1px solid rgb(40, 23, 23) ;
+	display: flex;
+	align-items: center;
+	margini: 10px;
+}
+
+.message3{
+	background-color: whitesmoke;
+	width: 1100px;
+	margin-left: 20px;
+	height: 100px;
+	display: flex;
+	align-items: center;
+}
+
+.message4{
+	background-color: whitesmoke;
+	width: 1100px;
+	margin-left: 20px;
+	height: 100px;
+	border-bottom: solid gray 1px;
+	display: flex;
+	align-items: center;	
+}
+
+.message5{
+	width: 1100px;
+	margin-left: 20px;
+	height: 100px;
+	background-color: whitesmoke;
+	border-bottom: gray solid 1px;
+	display: flex;
+	align-items: center;
+}
+
+.message6{
+	width: 1100px;
+	margin-left: 20px;
+	height: 100px;
+	background-color: whitesmoke;
+	display: flex;
+	align-items: center;	
+}
+
+.message7{
+	width: 1100px;
+	margin-left: 20px;
+	height: 100px;
+	background-color: whitesmoke;
+	display: flex;
+	align-items: center;
+}
+
+.mounth{
+	margin-left: 30px;
+	color: darkblue;
+	font-family: cursive;
+}
+
+#word{
+	margin-top: 40px;
+	margin-right: 180px;
+}
+
+.header_three{
+	position: relative;
+	display: inline-block;
+}
+
+.header_three
+.tooltip{
+	visibility: hidden;
+	width: 500px;
+	background-color: whitesmoke;
+	color: black;
+	text-align: left;
+	border: 150px;
+	padding: 5px 0px;
+	position: absolute;
+	right: 50px;
+	top: 100px;
+}
+
+.header_three:hover .tooltip{
+	visibility: visible;
+}
+
+.send{
+	width: 70px;
+	margin-left: 400px;
+	background-color: blue;
+}
+
+.search{
+width: 800px;
+height: 41px;
+}
+
+.button{
+	width: 53px;	
+}
+
+#icons1{
+	color: rgb(76, 76, 76);
+}
+
+.title{
+	margin-left: 20px;
+}
+
+.paragraph_tooltip{
+	margin-left: 10px;
+}
